@@ -302,38 +302,6 @@ margin-top: 4em;
   padding-top: 10px;
 }
 
-.thumbnail{
-position: relative;
-z-index: 0;
-}
-
-.thumbnail:hover{
-background-color: transparent;
-z-index: 50;
-}
-
-.thumbnail span{ /*CSS for enlarged image*/
-position: absolute;
-background-color:#ff66db;
-padding: 5px;
-left: -1000px;
-border:;
-visibility: hidden;
-color:;
-text-decoration: none;
-}
-
-.thumbnail span img{ /*CSS for enlarged image*/
-border-width: 0;
-padding: 2px;
-}
-
-.thumbnail:hover span{ /*CSS for enlarged image on hover*/
-visibility: visible;
-top: 0;
-left: 60px; /*position where enlarged image should offset horizontally */
-
-}
 
 
 
@@ -368,6 +336,33 @@ left: 60px; /*position where enlarged image should offset horizontally */
   font-size: 14px;
   text-decoration: none;
   font-family: "Work Sans", sans-serif;
+}
+
+.project-list-link:hover{
+  background-color: transparent;
+  z-index: 50;
+}
+
+.project-list-link span{
+  position: absolute;
+  background-color: lightyellow;
+  padding: 5px;
+  left: -100px;
+  border: 1px dashed gray;
+  visibility: hidden;
+  color: black;
+  text-decoration: none;
+}
+
+.project-list-link span img{
+  border-width: 0;
+  padding: 2px;
+}
+
+.project-list-link:hover span{
+  visibility: visible;
+  top: 0;
+  left: 60px;
 }
 
 .about-contact-link {
