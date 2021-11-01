@@ -362,7 +362,8 @@ margin-top: 4em;
 .project-list-link:hover span{
   visibility: visible;
   top: 100px;
-  left: 1000px;
+  left: 320px;
+  margin-bottom: 0;
 }
 
 .about-contact-link {
